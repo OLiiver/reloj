@@ -1,0 +1,47 @@
+/*  fonts
+  font-family: 'Pacifico', cursive;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-family: 'Kaushan Script', cursive;
+  font-family: 'Shrikhand', cursive;
+*/
+
+body {
+  background: url(../img/fondo.jpeg);
+}
+
+.reloj {
+  display: inline-block;
+  position: absolute;
+  left: 60%;
+  transform: translatex(-40%);
+  top: 30%;
+}
+
+.fecha {
+  font-family: 'Pacifico', cursive;
+  font-size: 36px;
+  margin: 0;
+  line-height: 45px;
+}
+
+.hora {
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 54px;
+  margin: 0;
+  display: inline-block;
+  width: 170px;
+}
+
+.contenedor-segundos {
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 42px;
+  display: inline-block;
+  width: 80px;
+}
+
+.am-pm,
+.segundos {
+  display: block;
+  margin: 0;
+  line-height: 40px;
+}
